@@ -4,6 +4,7 @@ import { Button, Text, View } from 'react-native'
 import First from './src/components/First'
 import OnPress from './src/components/OnPress'
 import UseStateHook from './src/components/UseStateHook'
+import Props from './src/components/Props'
 
 const App = () => {
   return (
@@ -15,6 +16,8 @@ const App = () => {
     <OnPress /> */}
 
     <UseStateHook />
+
+    <Props />
     </View>
   )
 }
