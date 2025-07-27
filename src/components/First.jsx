@@ -4,7 +4,7 @@ import React from 'react'
 const First = () => {
   return (
     <View>
-      <Text>This is my First Component</Text>
+      <Text style={{fontSize: 30}}>This is my First Component</Text>
     </View>
   )
 }

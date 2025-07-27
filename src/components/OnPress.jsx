@@ -5,7 +5,6 @@ const OnPress = () => {
 
     const getName = () => {
         console.log('Button Pressed!');
-        console.warn('Button Pressed!');
     }
   return (
     <View>
