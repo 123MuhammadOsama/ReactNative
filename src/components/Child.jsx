@@ -2,6 +2,7 @@ import { View, Text } from 'react-native'
 import React from 'react'
 
 const Child = (props) => {
+    console.log(props.data); // Log the data received from Props component
   return (
     <View>
       <Text style={{fontSize:30}}>{props.data}</Text>

@@ -5,6 +5,7 @@ import First from './src/components/First'
 import OnPress from './src/components/OnPress'
 import UseStateHook from './src/components/UseStateHook'
 import Props from './src/components/Props'
+import InputText from './src/components/InputText'
 
 const App = () => {
   return (
@@ -15,9 +16,11 @@ const App = () => {
     <First />
     <OnPress /> */}
 
-    <UseStateHook />
+    {/* <UseStateHook /> */}
 
-    <Props />
+    {/* <Props /> */}
+
+    <InputText />
     </View>
   )
 }
